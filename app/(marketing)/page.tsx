@@ -7,6 +7,7 @@ import { Hero } from "@/components/hero";
 // import { LogoCloud } from "@/components/logos-cloud";
 import Pricing from "@/components/pricing";
 import { Testimonials } from "@/components/testimonials";
+import { TestimonialsMasonryGrid } from "@/components/testimonials-masonry";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Features3 />
       <Pricing />
       <Testimonials />
+      <TestimonialsMasonryGrid />
       <FAQ />
       <CTA />
     </div>
