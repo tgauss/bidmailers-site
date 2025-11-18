@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <LogoCloud />
+      {/* <LogoCloud /> - Hidden for now, will add real company logos later */}
       <Features />
       <Features2 />
       <Features3 />
