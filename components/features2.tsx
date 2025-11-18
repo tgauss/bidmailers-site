@@ -6,13 +6,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import DottedMap from "dotted-map";
 import {
-  IconBrandDiscord,
-  IconBrandFacebook,
-  IconBrandLinkedin,
-  IconBrandReddit,
-  IconBrandTwitch,
-  IconBrandTwitter,
-  IconBrandYoutube,
   IconCircleArrowLeft,
 } from "@tabler/icons-react";
 import { Logo } from "./logo";
@@ -44,7 +37,7 @@ export function Features2() {
             <CardTitle>Target Any Neighborhood You Want</CardTitle>
             <CardDescription>
               Walk or drive any neighborhood, mark homes that need roof work,
-              and we'll have your estimates in their mailbox within 72 hours.
+              and we&apos;ll have your estimates in their mailbox within 72 hours.
             </CardDescription>
           </CardContent>
         </Card>
@@ -82,7 +75,7 @@ export function Features2() {
           </CardSkeletonBody>
           <CardContent className="h-40">
             <CardTitle>Simple Mobile App</CardTitle>
-            <CardDescription>Mark homes as you walk. Upload photos. Set your price. That's it - we handle everything else.</CardDescription>
+            <CardDescription>Mark homes as you walk. Upload photos. Set your price. That&apos;s it - we handle everything else.</CardDescription>
           </CardContent>
         </Card>
       </div>

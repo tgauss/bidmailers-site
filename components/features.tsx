@@ -37,7 +37,7 @@ export function Features() {
         </h2>
         <p className="text-muted-foreground mx-4">
           Stop competing for shared leads. Put your actual roof price directly
-          in homeowners' mailboxes before anyone else.
+          in homeowners&apos; mailboxes before anyone else.
         </p>
       </div>
 

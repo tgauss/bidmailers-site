@@ -37,7 +37,7 @@ export function Testimonials() {
 
             <p className="text-neutral-600 text-lg max-w-md">
               Over 200+ roofing contractors trust Bid Mailers to grow their business.
-              Here's why they stopped buying shared leads and started sending real bids.
+              Here&apos;s why they stopped buying shared leads and started sending real bids.
             </p>
 
             <div className="space-y-4">

@@ -4,7 +4,7 @@ import { Features } from "@/components/features";
 import { Features2 } from "@/components/features2";
 import Features3 from "@/components/features3";
 import { Hero } from "@/components/hero";
-import { LogoCloud } from "@/components/logos-cloud";
+// import { LogoCloud } from "@/components/logos-cloud";
 import Pricing from "@/components/pricing";
 import { Testimonials } from "@/components/testimonials";
 

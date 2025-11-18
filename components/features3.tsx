@@ -3,21 +3,6 @@ import React, { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 
-// Message type definition
-type Message = {
-  role: "assistant" | "user";
-  content: string;
-};
-
-// Card type definition
-type Card = {
-  id: number;
-  name: string;
-  designation: string;
-  content: string;
-  gradient: string;
-};
-
 // Reusable components
 const GradientTitle = ({ children }: { children: React.ReactNode }) => (
   <h2 className="text-4xl font-bold mb-4">{children}</h2>

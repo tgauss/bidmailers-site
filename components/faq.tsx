@@ -42,7 +42,7 @@ export function FAQ() {
             Frequently <span className="text-[#188bf6]">Asked</span> Questions
           </h2>
           <p className="text-neutral-600 max-w-3xl mx-auto">
-            Got questions about how Bid Mailers works? We've got answers. Learn how roofing contractors
+            Got questions about how Bid Mailers works? We&apos;ve got answers. Learn how roofing contractors
             are using direct mail to land more jobs without buying shared leads.
           </p>
         </div>
