@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Bid Mailers Blue Palette */
+  --primary: #188bf6;
+  --primary-dark: #1273d6;
+  --primary-darker: #0d5bb5;
+  --primary-light: #3d9df7;
+  --primary-lighter: #62aff9;
+  --primary-soft: #e3f3ff;
+  --primary-softer: #f0f8ff;
+  --accent-blue: #2563eb;
+  --accent-blue-light: #3b82f6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
