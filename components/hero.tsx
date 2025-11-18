@@ -111,14 +111,14 @@ export function Hero() {
         </Link>
       </motion.div>
 
-      <div className="pt-[2rem] pb-[4rem] w-full min-h-[35rem] md:min-h-[45rem] relative">
+      <div className="pt-[2rem] pb-[4rem] w-full min-h-[25rem] md:min-h-[35rem] relative">
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
           className="absolute top-0 left-0 right-0 z-10"
         >
-          <div className="relative max-w-sm md:max-w-xl mx-auto px-4">
+          <div className="relative max-w-[280px] md:max-w-md mx-auto px-4">
             <Image
               src="/bid-mailers-mockup.webp"
               alt="Bid Mailers App Interface"
