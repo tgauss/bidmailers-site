@@ -118,7 +118,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="absolute top-0 left-0 right-0 z-10"
         >
-          <div className="relative max-w-2xl md:max-w-3xl mx-auto px-4">
+          <div className="relative max-w-sm md:max-w-xl mx-auto px-4">
             <Image
               src="/bid-mailers-mockup.webp"
               alt="Bid Mailers App Interface"
